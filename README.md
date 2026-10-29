@@ -8,8 +8,6 @@ I built a small Windows domain lab on my personal desktop to get hands-on experi
 
 The lab uses **two virtual machines**: a Windows Server domain controller (**DC01**) and a Windows 11 employee workstation (**CLIENT01**). I used the workstation to test domain authentication and a simple Group Policy restriction.
 
-**Scope:** This is a beginner home lab, **not a production enterprise deployment**. It focuses on introductory setup, identity administration, workstation connectivity, and troubleshooting.
-
 ## Lab environment
 
 | Component | Configuration / purpose |
@@ -247,10 +245,3 @@ All **24 selected screenshots** are linked from this README using repository-rel
 
 Each screenshot is stored in the [`screenshots/`](screenshots/) directory. These are images from my own lab work, not stock screenshots.
 
-## Next steps
-
-A practical next exercise would be creating an **SMB shared folder** and testing **NTFS permissions** using the existing security groups. This would extend the lab into file access and permissions, which are common entry-level IT support tasks.
-
----
-
-*This repository documents a personal learning project. The employee accounts are fictional, and no passwords or private credentials are included.*
